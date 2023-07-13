@@ -4,6 +4,7 @@ module Types
     field :test_field, String, null: false,
       description: "An example field added by the generator"
     field :create_link, mutation: Mutations::CreateLink
+    field :create_user, mutation: Mutations::CreateUser
     def test_field
       "Hello World"
     end

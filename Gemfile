@@ -36,6 +36,7 @@ gem "bootsnap", require: false
 # gem 1.11.6 include Refinement has been removed
 gem 'graphql', '~> 2.0', '>= 2.0.24'
 
+gem 'bcrypt', '~> 3.1.13'
 
 
 group :development, :test do
